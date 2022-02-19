@@ -435,11 +435,7 @@ img {
 .footer-social-list {
   display: flex;
 }
-.footer-social-item {
-  /* display: block;
-  width: 44px;
-  height: 44px; */
-}
+
 .footer-social-item:hover {
   background-color: #2196f3;
 }
