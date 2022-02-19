@@ -515,6 +515,7 @@ img {
 
 /* Footer icons */
 .footer-icon-title {
+  display: block;
   margin-bottom: 20px;
 
   font-weight: 700;
