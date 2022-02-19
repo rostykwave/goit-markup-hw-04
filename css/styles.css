@@ -216,7 +216,8 @@ img {
   background-color: var(--secondary-btn-bgc);
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #188ce8;
 }
 
@@ -254,8 +255,9 @@ img {
   margin-top: var(--features-card-set-gap);
 }
 .features-icon-bgc {
-  padding: 25px 100px;
   margin-bottom: 30px;
+  padding: 25px 100px;
+
   background-color: #f5f4fa;
 }
 .features-icon {
@@ -339,7 +341,6 @@ img {
   display: block;
   width: 44px;
   height: 44px;
-
   padding: 12px;
 }
 
@@ -350,11 +351,13 @@ img {
   fill: #afb1b8;
 }
 
-.command-icon-link:hover {
+.command-icon-link:hover,
+.command-icon-link:focus {
   background-color: var(--accent-icon-hover);
   border-radius: 50%;
 }
-.command-icon-link:hover .command-icon {
+.command-icon-link:hover .command-icon,
+.command-icon-link:focus .command-icon {
   fill: #ffffff;
 }
 
@@ -367,23 +370,31 @@ img {
   width: 170px;
   height: 92px;
 
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
 
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+  /* border: 1px solid #afb1b8;
+  border-radius: 4px; */
 }
 
 .clients-item + .clients-item {
   margin-left: 30px;
 }
 .clients-link {
+  display: block;
+  height: 92px;
+  padding: 16px 32px;
+
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
-.clients-item:hover .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-icon-hover);
 }
 
-.clients-item:hover {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid var(--accent-icon-hover);
 }
 
@@ -525,18 +536,19 @@ img {
   width: 44px;
   height: 44px;
   padding: 12px;
-  cursor: pointer;
 
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 
   border-radius: 50%;
 }
-.footer-icon-link:hover {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: var(--accent-icon-hover);
 }
 
-.footer-icon-link:hover .footer-icon {
+.footer-icon-link:hover .footer-icon,
+.footer-icon-link:focus .footer-icon {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
