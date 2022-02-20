@@ -255,8 +255,11 @@ img {
   margin-top: var(--features-card-set-gap);
 }
 .features-icon-bgc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
 
   background-color: #f5f4fa;
 }
@@ -380,9 +383,10 @@ img {
   margin-left: 30px;
 }
 .clients-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 92px;
-  padding: 16px 32px;
 
   fill: #afb1b8;
   border: 1px solid #afb1b8;
