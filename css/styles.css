@@ -479,15 +479,12 @@ img {
 }
 .footer-column {
   display: flex;
-}
-.footer-main-column {
   padding: 60px 0;
+  align-items: baseline;
 }
-.footer-social-column {
-  margin-left: 70px;
-  padding-top: 72px;
-  padding-bottom: 100px;
-}
+
+/* Footer column 1 */
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -510,6 +507,11 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-txt);
+}
+
+/* Footer column 2*/
+.footer-social-column {
+  margin-left: 70px;
 }
 
 /* Footer icons */
